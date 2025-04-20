@@ -21,10 +21,12 @@ User-facing endpoints are exposed through REST APIs.
 ---
 
 ## 3. Services
-Comment-Service(https://github.com/CelticAlreadyUse/Article-Comment-Service)
-Account-Service(https://github.com/CelticAlreadyUse/Article-accountservices)
-Story-Service(https://github.com/CelticAlreadyUse/article-story-service)
-Notification-Service(https://github.com/CelticAlreadyUse/Article-Notification-Services)
+
+![Comment-Service](https://github.com/CelticAlreadyUse/Article-Comment-Service)
+![Account-Service](https://github.com/CelticAlreadyUse/Article-accountservices)
+![Story-Service](https://github.com/CelticAlreadyUse/article-story-service)
+![Notification-Service](https://github.com/CelticAlreadyUse/Article-Notification-Services)
+
 ### 3.1 Account Service
 
 - Manages user registration, authentication, email validation and profile data.
