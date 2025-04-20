@@ -2,7 +2,7 @@
 
 ## 🎯 Project Name: Story-Based Microservices Platform  
 **Date:** April 2025  
-**Author:** [Your Name]
+**Author:** Kanisius Wahyu Santoso
 
 ---
 
