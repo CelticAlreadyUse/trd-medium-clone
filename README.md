@@ -3,7 +3,6 @@
 ## 🎯 Project Name: Story-Based Microservices Platform  
 **Date:** April 2025 (Still in progress)
 **Author:** Kanisius Wahyu Santoso
-
 ---
 
 ## 1. Overview
@@ -11,9 +10,8 @@
 This platform consists of four main microservices: `Account`, `Notification`, `Story`, and `Comments`.  
 Each service is responsible for its own domain and communicates with others via gRPC.  
 User-facing endpoints are exposed through REST APIs.
-for the documentation you can acces this link : https://docs.google.com/document/d/1FFLD7tqUAlnq19BBkt7jeDPclBv9fEyxzoQtC5npZ6o/edit?usp=sharing
 ---
-
+Documentation 📄:![Word Doc](https://docs.google.com/document/d/1FFLD7tqUAlnq19BBkt7jeDPclBv9fEyxzoQtC5npZ6o/edit?usp=sharing)
 ## 2. Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/efdc1427-0bb8-4c36-859f-8d2b63292950)
@@ -30,9 +28,9 @@ for the documentation you can acces this link : https://docs.google.com/document
 ### 3.1 Account Service
 
 - Manages user registration, authentication, email validation and profile data.
-- **Database:** Mysql or MongoDB
+- **Database:** Mysql
 - **External Interface:** REST API
-
+# 📄 Technical Requirement Document (TRD)
 #### gRPC Functions:
 
 | Function Name        | Called By       | Description                                          |
@@ -45,7 +43,8 @@ for the documentation you can acces this link : https://docs.google.com/document
 ### 3.2 Notification Service
 
 - Handles all in-app, email, or push notifications.
-- **Database:** 
+- **Database:** Mysql
+- ** Message Broker:** Nats
 - **External Interface:** None (internal gRPC only)
 
 #### gRPC Functions:
@@ -62,8 +61,8 @@ for the documentation you can acces this link : https://docs.google.com/document
 ### 3.3 Story Service
 
 - Manages story creation, retrieval, and caching.
-- **Database:** PostgreSQL or MongoDB  
-- **Cache:** Redis  
+- **Database:** MongoDB  
+- **Cache:** Redis 
 - **External Interface:** REST API
 
 #### gRPC Functions:
@@ -80,7 +79,7 @@ for the documentation you can acces this link : https://docs.google.com/document
 ### 3.4 Comments Service
 
 - Manages user comments on stories.
-- **Database:** PostgreSQL or MongoDB  
+- **Database:** mysql  
 - **External Interface:** REST API
 
 #### gRPC Functions:
@@ -94,6 +93,7 @@ for the documentation you can acces this link : https://docs.google.com/document
 ---
 
 ## 4. Data Flow Example: Story Creation
+![image](https://github.com/user-attachments/assets/c2f61642-6d8f-4b06-aa56-2e99fe5da4a1)
 
 ### 📘 User creates a new story
 
