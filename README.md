@@ -11,7 +11,7 @@ This platform consists of four main microservices: `Account`, `Notification`, `S
 Each service is responsible for its own domain and communicates with others via gRPC.  
 User-facing endpoints are exposed through REST APIs.
 ---
-Documentation 📄:![Word Doc](https://docs.google.com/document/d/1FFLD7tqUAlnq19BBkt7jeDPclBv9fEyxzoQtC5npZ6o/edit?usp=sharing)
+Documentation 📄:[Word Doc](https://docs.google.com/document/d/1FFLD7tqUAlnq19BBkt7jeDPclBv9fEyxzoQtC5npZ6o/edit?usp=sharing)
 ## 2. Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/efdc1427-0bb8-4c36-859f-8d2b63292950)
@@ -30,7 +30,6 @@ Documentation 📄:![Word Doc](https://docs.google.com/document/d/1FFLD7tqUAlnq1
 - Manages user registration, authentication, email validation and profile data.
 - **Database:** Mysql
 - **External Interface:** REST API
-# 📄 Technical Requirement Document (TRD)
 #### gRPC Functions:
 
 | Function Name        | Called By       | Description                                          |
