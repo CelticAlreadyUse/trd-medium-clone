@@ -1,7 +1,7 @@
 # 📄 Technical Requirement Document (TRD)
 
 ## 🎯 Project Name: Story-Based Microservices Platform  
-**Date:** April 2025  
+**Date:** April 2025 (Still in progress)
 **Author:** Kanisius Wahyu Santoso
 
 ---
@@ -11,7 +11,7 @@
 This platform consists of four main microservices: `Account`, `Notification`, `Story`, and `Comments`.  
 Each service is responsible for its own domain and communicates with others via gRPC.  
 User-facing endpoints are exposed through REST APIs.
-
+for the documentation you can acces this link : https://docs.google.com/document/d/1FFLD7tqUAlnq19BBkt7jeDPclBv9fEyxzoQtC5npZ6o/edit?usp=sharing
 ---
 
 ## 2. Architecture Diagram
